@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+  	<head>
+    	<meta charset="utf-8">
+    	<title>HTML Academy: Седона</title>
+  	</head>
+  	<body>
+
+  		<header class="main-header">
+			<nav class="main-navigation">
+				<a class="main-header-logo" href="index.html">
+					<img src="http://placehold.it/138x70" width="138" height="70" alt="Логотип города Седона">
+				</a>
+				<ul class="site-navigation">
+					<li><a href="index.html">Информация</a></li>
+					<li><a href="photo.html">Фото и видео</a></li>
+					<li><a href="map.html">Карта штата</a></li>
+					<li><a href="hotels.html">Гостиницы</a></li>
+				</ul>
+			</nav>
+  		</header>
+
+  		<main class="container">
+  			<h1 class="visually-hidden">Поиск гостиницы</h1>
+
+			<section class="filters">
+				<h2 class="visually-hidden">Фильтр для поиска гостиницы</h2>
+				<form class="filter" method="get" action="https://echo.htmlacademy.ru">
+					<fieldset class="filter-group-infrastructure">
+						<legend>Инфраструктура:</legend>
+						<ul>
+							<li class="filter-option">
+								<input type="checkbox" name="pool" checked>
+								Бассейн
+							</li>
+							<li class="filter-option">
+								<input type="checkbox" name="parking">
+								Парковка
+							</li>
+							<li class="filter-option">
+								<input type="checkbox" name="wi-fi">
+								WI-FI
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset class="filter-group-type-of-housing">
+						<legend>Тип жилья:</legend>
+						<ul>
+							<li class="filter-option">
+								<input type="checkbox" name="hotel" checked>
+								Гостиница
+							</li>
+							<li class="filter-option">
+								<input type="checkbox" name="motel" checked>
+								Мотель
+							</li>
+							<li class="filter-option">
+								<input type="checkbox" name="apartment" checked>
+								Апартаменты
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset class="filter-group-price">
+						<legend>Стоимость в сутки (р):</legend>
+						<!-- Доразмечу, когда будут изучены формы -->
+					</fieldset>
+					<button type="submit" class="filter-button">Показать</button>
+				</form>
+			</section>
+
+			<section class="search-results">
+				<h2 class="visually-hidden">Результаты поиска</h2>
+				<b>Найдено: 3</b>
+				<p>Сортировка:</p>
+				<ul class="sort-options">
+					<li class="sort-option"><button type="button">по цене</button></li>
+					<li class="sort-option"><button type="button">по типу</button></li>
+					<li class="sort-option"><button type="button">по рейтингу</button></li>
+				</ul>
+				<ul class="sort-order">
+					<li class="order-option"><button type="button">по возрастанию</button></li>
+					<li class="order-option"><button type="button">по убыванию</button></li>
+				</ul>
+				<ul class="hotels-list">
+					<li class="hotel-item">
+						<img src="http://placehold.it/135x90" width="135" height="90" alt="Гостиница Amara resort & spa">
+						<h3>Amara resort & spa</h3>
+						<span>Гостиница</span>
+						<span>От 4000 Р</span>
+						<a class="details" href="#">Подробнее</a>
+						<a class="booking" href="#">Забронировать</a>
+						<div class="hotel-stars">4 звезды</div>
+						<p class="hotel-raiting">Рейтинг: 8,5</p>
+					</li>
+					<li class="hotel-item">
+						<img src="http://placehold.it/135x90" width="135" height="90" alt="Мотель Desert quail inn">
+						<h3>Desert quail inn</h3>
+						<span>Мотель</span>
+						<span>От 3000 Р</span>
+						<a class="details" href="#">Подробнее</a>
+						<a class="booking" href="#">Забронировать</a>
+						<div class="hotel-stars">3 звезды</div>
+						<p class="hotel-raiting">Рейтинг: 8,9</p>
+					</li>
+					<li class="hotel-item">
+						<img src="http://placehold.it/135x90" width="135" height="90" alt="Апартаменты Villas at poco diablo">
+						<h3>Villas at poco diablo</h3>
+						<span>Апартаменты</span>
+						<span>От 2000 Р</span>
+						<a class="details" href="#">Подробнее</a>
+						<a class="booking" href="#">Забронировать</a>
+						<div class="hotel-stars">2 звезды</div>
+						<p class="hotel-raiting">Рейтинг: 9,2</p>
+					</li>
+				</ul>
+			</section>
+
+  		</main>
+
+  		<footer class="main-footer">
+ 			<p class="footer-hashtag">#Visitsedona</p>
+ 			<div class="footer-social">
+ 				<ul>
+ 					<li><a class="social-button" href="#"></a>Твитер</li>
+ 					<li><a class="social-button" href="#"></a>Вконтакте</li>
+ 					<li><a class="social-button" href="#"></a>Youtube</li>
+ 				</ul>
+ 			</div>
+			<p class="footer-copyright">
+				Website by
+				<a href="https://htmlacademy.ru/intensive/htmlcss">html academy</a> 
+			</p>
+ 		</footer>
+
+   	</body>
+</html>
