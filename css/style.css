@@ -11,12 +11,9 @@ body {
 	font-size: 21px;
 	color: #000000;
 	font-weight: bolt;
+	line-height: 21px;
 }
 
 .hotel-name {
 	line-height: 26px;
-}
-
-.reason-title {
-	line-height: 21px;
 }
