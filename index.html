@@ -138,7 +138,29 @@
 
 		<section class="modal-search">
 			<h2 class="visually-hidden">Поиск гостиницы в Седоне</h2>
-			<!-- Вернусь к разметке, как только будут изучены формы -->
+			<form class="search-hotels-form" action="https://echo.htmlacademy.ru" method="post">
+				<p>
+					<label for="arrival-date">Дата заезда:</label>
+					<input type="text" id="arrival-date" name="arrival-date" value="24 Апреля 2017" required>
+				</p>
+				<p>
+					<label for="departure-date">Дата выезда:</label>
+					<input type="text" id="departure-date" name="departure-date" value="4 Июля 2017" required>
+				</p>
+				<p>
+					<label for="grownups">Взрослые</label>
+					<button type="button" class="button-change">&plus;</button>
+					<input type="text" id="grownups" name="grownups" value="2" readonly>
+					<button type="button" class="button-change">&minus;</button>
+				</p>
+				<p>
+					<label for="children">Дети</label>
+					<button type="button" class="button-change">&plus;</button>
+					<input type="text" id="children" name="children" value="0" readonly>
+					<button type="button" class="button-change">&minus;</button>
+				</p>	
+				<button type="submit" class="button-search">Найти</button>
+			</form>	
 		</section>
 
   	</body>

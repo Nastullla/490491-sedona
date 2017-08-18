@@ -34,21 +34,21 @@
 
 			<section class="filters">
 				<h2 class="visually-hidden">Фильтр для поиска гостиницы</h2>
-				<form class="filter" method="get" action="https://echo.htmlacademy.ru">
+				<form class="filter-form" action="https://echo.htmlacademy.ru" method="get">
 					<fieldset class="filter-group-infrastructure">
 						<legend>Инфраструктура:</legend>
 						<ul>
 							<li class="filter-option">
-								<input type="checkbox" name="pool" checked>
-								Бассейн
+									<input type="checkbox" id="pool" name="pool" checked>
+									<label for="pool">Бассейн</label> 
 							</li>
 							<li class="filter-option">
-								<input type="checkbox" name="parking">
-								Парковка
+									<input type="checkbox" id="parking" name="parking">
+									<label for="parking">Парковка</label>
 							</li>
 							<li class="filter-option">
-								<input type="checkbox" name="wi-fi">
-								WI-FI
+									<input type="checkbox" id="wi-fi" name="wi-fi">
+									<label for="wi-fi">WI-FI</label>
 							</li>
 						</ul>
 					</fieldset>
@@ -56,22 +56,29 @@
 						<legend>Тип жилья:</legend>
 						<ul>
 							<li class="filter-option">
-								<input type="checkbox" name="hotel" checked>
-								Гостиница
+									<input type="checkbox" id="hotel" name="hotel" checked>
+									<label for="hotel">Гостиница</label>
 							</li>
 							<li class="filter-option">
-								<input type="checkbox" name="motel" checked>
-								Мотель
+									<input type="checkbox" id="motel" name="motel" checked>
+									<label for="motel">Мотель<label>
 							</li>
 							<li class="filter-option">
-								<input type="checkbox" name="apartment" checked>
-								Апартаменты
+									<input type="checkbox" id="apartment" name="apartment" checked>
+									<label for="apartment">Апартаменты</label>	
 							</li>
 						</ul>
 					</fieldset>
 					<fieldset class="filter-group-price">
 						<legend>Стоимость в сутки (р):</legend>
-						<!-- Доразмечу, когда будут изучены формы -->
+						<p>
+							от <span>0</span>
+						</p>
+						<p>
+							до <span>3000</span>
+						</p>
+						<label class="visually-hidden" for="price-range">Диапазон цен</label>
+						<input type="range" id="price-range" name="price-range" min="0">
 					</fieldset>
 					<button type="submit" class="filter-button">Показать</button>
 				</form>
