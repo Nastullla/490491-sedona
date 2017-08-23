@@ -3,6 +3,8 @@
   	<head>
     	<meta charset="utf-8">
     	<title>HTML Academy: Седона</title>
+    	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    	<link href="css/normalize.css" rel="stylesheet">
     	<link href="css/style.css" rel="stylesheet">
   	</head>
   	<body>
@@ -14,7 +16,7 @@
 				</a>
 				<ul class="site-navigation">
 					<li>
-						<a href="info.html">Информация</a>
+						<a class="active-page" href="">Информация</a>
 					</li>
 					<li>
 						<a href="photo.html">Фото и видео</a>
@@ -37,13 +39,13 @@
 
 			<section class="advantages">
 				<h2 class="visually-hidden">Почему в Седону стоит приехать</h2>
-				<b>Седона - небольшой городок в Аризоне, заслуживающий большего!</b>
+				<b class="advantages-title">Седона - небольшой городок в Аризоне, заслуживающий большего!</b>
 				<p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
 			</section>
 
 			<section class="feature-1">
-				<div class="feature feature-blue">
-					<h3 class="title">Настоящий городок</h3>
+				<div class="feature">
+					<h3 class="title title-white">Настоящий городок</h3>
 					<span>&mdash; №1 &mdash;</span>
 					<p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
 				</div>
@@ -71,8 +73,8 @@
 			</section>
 
 			<section class="feature-2">
-				<div class="feature feature-blue">
-					<h3 class="title">Там есть мост дьявола</h3>
+				<div class="feature">
+					<h3 class="title title-white">Там есть мост дьявола</h3>
 					<span>&mdash; №2 &mdash;</span>
 					<p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
 				</div>
@@ -102,14 +104,14 @@
 
 			<section class="search-hotels">
 				<h2 class="visually-hidden">Поиск гостиницы в Седоне</h2>
-				<b>Заинтересовались?</b>
+				<b class="search-hotels-title">Заинтересовались?</b>
 				<p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
 				<a class="button-visibility-search" href="#">Поиск гостиницы в Седоне</a>
 			</section>
 
 			<section class="map">
 				<h2 class="visually-hidden">Как до нас добраться</h2>	
-				
+				<img class="map-sedona" src="img/map.jpg" alt="Координаты GPS 34&deg;51&prime;53.3&quot;N 111&deg;45&prime;57.4&quot;W">
 			</section>
 
  		</main>
@@ -117,7 +119,7 @@
  		<footer class="main-footer">
  			<a class="footer-hashtag" href="#">#Visitsedona</a>
  			<div class="footer-social">
- 				<ul>
+ 				<ul class="social-button-list">
  					<li>
  						<a class="social-button" href="#">Твитер</a>
  					</li>

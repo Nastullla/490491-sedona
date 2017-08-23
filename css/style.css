@@ -1,19 +1,355 @@
 body {
+	margin: 0;
+	padding: 0;
+
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 14px;
 	line-height: 21px;
-	color: #333333;
 	font-weight: normal;
+	color: #333333;
 	text-transform: uppercase;
-	font-family: "PT Sans", "Arial", serif;
+
+	background-color: #f2f2f2;
+}
+
+a {
+	text-decoration: none;
+}
+/*---------------Меню-----------------*/
+.main-navigation {
+	line-height: 26px;
+	font-weight: bold;
+	color: #000000;
+
+	background-color: #ffffff;
+}
+
+.site-navigation {
+	list-style: none;	
+}
+
+.site-navigation a {
+	color: #000000;
+}
+
+.site-navigation a:hover {
+	color: #81b3d2;
+}
+
+.site-navigation a:active {
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.site-navigation .active-page {
+	color: #766357;
+}
+/*------------------------------------*/
+.intro {
+	height: 508px;
+	background-image: url("../img/shape.png"), url("../img/welcome.png"), url("../img/mountains.jpg");
+	background-position: center bottom, center 76px, center -57px;
+  	background-repeat: no-repeat;
+}
+/*------------------------------------*/
+.advantages {
+	text-align: center;
+	line-height: 26px;
+	background-color: #ffffff;
+}
+
+.advantages-title {
+	font-size: 21px;
+	color: #000000;
+}
+/*------------------------------------*/
+.feature-1, .feature-2 {
+	color: #ffffff;
+	background-color: #81b3d2;
+}
+
+.feature {
+	text-align: center;
 }
 
 .title {
 	font-size: 21px;
-	color: #000000;
-	font-weight: bolt;
 	line-height: 21px;
+	font-weight: bolt;
+	color: #000000;
 }
 
-.hotel-name {
-	line-height: 26px;
+.title-white {
+	color: #ffffff;
 }
+
+.promo {
+	background-color: #ffffff;
+}
+
+.other-features {
+	background-color: #eeeeee;
+}
+
+.promo-list {
+	list-style: none;
+	text-align: center;
+}
+/*------------------------------------*/
+.search-hotels {
+	text-align: center;
+	line-height: 24px;
+	background-color: #ffffff;
+}
+
+.search-hotels-title {
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.search-hotels a {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #ffffff;	
+
+	background-color: #766357;	
+}
+
+.search-hotels a:hover {
+	color: #ffffff;	
+	background-color: #604e43;		
+}
+
+.search-hotels a:active {
+	color: rgba(255, 255, 255, 0.3);
+	background-color: #503e33;	
+}
+/*------------------------------------*/
+.map-sedona {
+	height: 593px;
+}
+/*------------------------------------*/
+.main-footer {
+	color:;
+	background-color: rgba(254, 254, 254, 0.9);	
+}
+
+.footer-hashtag {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #000000;		
+}
+
+.social-button-list {
+	list-style: none;
+}
+
+.social-button {
+	background-color: #81b3d2;
+}
+
+.social-button:hover {
+	background-color: #669ec0;
+}
+.social-button:active {
+	background-color: #5496bd;
+}
+
+.footer-copyright a {
+	line-height: 26px;
+	font-weight: normal;
+	color: #000000;
+}
+/*------------------------------------*/
+.modal-search {
+	line-height: 26px;
+	font-weight: bold;
+	color: #000000;	
+	background-color: #ffffff;
+}
+
+.search-hotels-form input[type="text"] {
+	font: inherit;
+	outline: none;
+	background-color: #f2f2f2;
+	border: 2px solid #f2f2f2;
+}
+
+.search-hotels-form input[type="text"]:hover {
+	background-color: #ebebeb;
+	border-color: #ebebeb;
+}
+
+.search-hotels-form input[type="text"]:focus {
+	background-color: #ffffff;
+	border-color: #e5e5e5;
+}
+
+.button-search {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #ffffff;	
+
+  	text-align: center;
+  	vertical-align: middle;
+  	text-transform: uppercase;
+
+  	background-color: #81b3d2;
+  	border: none;
+}
+
+.button-search:hover {
+	color: #ffffff;	
+  	background-color: #669ec0;
+}
+
+.button-search:active {
+	color: rgba(255, 255, 255, 0.3);;	
+  	background-color: #5496bd;
+}
+/*-----------catalog.html-------------*/
+.filters {
+	color: #ffffff;
+	background-color: #81b3d2;
+	background-image: url("../img/filter-background.jpg");
+  	background-position: top center;
+ 	background-repeat: no-repeat;
+
+}
+
+.filter-group {
+	border: none;
+}
+
+.filter-title {
+	font-size: 16px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.filter-options-list {
+	list-style: none;
+}
+
+.filter-button {
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: normal;
+	color: #ffffff;
+
+	text-align: center;
+  	vertical-align: middle;
+	text-transform: uppercase;
+
+	background: none;
+	border: 2px solid #ffffff;
+}
+
+.filter-button:hover {
+	color: #000000;
+	background-color: #ffffff; 
+} 
+/*------------------------------------*/
+.search-results {
+	background-color: #fefefe;
+}
+
+.found {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #000000;	
+}
+
+.sort {
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: normal;
+	color: #000000;	
+}
+
+.sort-options, .sort-order {
+	list-style: none;
+}
+
+.sort-option a {
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: normal;
+	color: rgba(0, 0, 0, 0.3);	
+	border-bottom: 1px dashed #81b3d2;	
+}
+
+.sort-option a:not(.sort-selected):hover {
+	color: #81b3d2;	
+	border-bottom: 1px dashed #81b3d2;	
+}
+
+.sort-option a:not(.sort-selected):active {
+	color: #000000;	
+	border-bottom: none;	
+}
+
+.sort-option .sort-selected {
+	color: #81b3d2;
+	border-bottom: none;	
+}
+/*------------------------------------*/
+.hotel-title {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bolt;
+	color: #000000;
+}
+
+.hotel-name:hover {
+	color: #81b3d2;
+}
+
+.hotel-name:active {
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.details {
+	font-weight: bold;
+	color: #ffffff;	
+  	background-color: #81b3d2;	
+}
+
+.details:hover {
+	color: #ffffff;
+	background-color: #669ec0;
+}
+
+.details:active {
+	color: rgba(255, 255, 255, 0.3);
+	background-color: #5496bd;
+}
+
+.booking {
+	font-weight: bold;
+	color: #ffffff;	
+  	background-color: #766357;		
+}
+
+.booking:hover {
+	color: #ffffff;
+	background-color: #604e43;
+}
+
+.booking:active {
+	color: rgba(255, 255, 255, 0.3);
+	background-color: #503e33;
+}
+
+.hotel-raiting {
+	text-align: center;
+
+	color: #666666;
+	background-color: #f2f2f2;
+}
+
