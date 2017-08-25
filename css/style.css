@@ -12,7 +12,7 @@ body {
 	background-color: #f2f2f2;
 }
 
-	/*-------*/
+	/*-------
 .index {	
 	background-image: url("../img/sedona-index-1200.jpg");
 	background-position: top center;
@@ -26,7 +26,7 @@ body {
 	background-repeat: no-repeat;
 	min-height: 933px;	
 }
-	/*-------*/
+	-------*/
 
 a {
 	text-decoration: none;
@@ -46,13 +46,13 @@ a {
 .container {
 	width: 1200px;
 	margin: 0 auto;
-	/*background-color: #ffffff;*/
+	background-color: #ffffff;
 }
 /*------------------------------------*/
 .main-header {
 	/*-------*/
 	outline: 2px solid red;
-	min-height: 56px;
+	/*min-height: 56px;*/
 	/*-------*/
 }
 
@@ -72,7 +72,7 @@ a {
 
 	/*-------*/
 	outline: 2px solid red;
-	min-height: 56px;
+	/*min-height: 56px;*/
 	/*-------*/
 }
 
@@ -81,7 +81,7 @@ a {
 	margin-top: 15px;
 	/*-------*/
 	outline: 2px solid red;
-	min-height: 25px;
+	/*min-height: 25px;*/
 	/*-------*/
 }
 
@@ -103,7 +103,7 @@ a {
 /*------------------------------------*/
 .intro {
 	height: 508px;
-	/*background-image: url("../img/shape.png"), url("../img/welcome.png"), url("../img/mountains.jpg");*/
+	background-image: url("../img/shape.png"), url("../img/welcome.png"), url("../img/mountains.jpg");
 	background-position: center bottom, center 76px, center -57px;
   	background-repeat: no-repeat;
 
@@ -118,7 +118,7 @@ a {
 
 	/*-------*/
 	outline: 2px solid green;
-	min-height: 216px;
+	/*min-height: 216px;*/
   	/*-------*/
 }
 
@@ -132,12 +132,12 @@ a {
 	justify-content: space-between;
 	align-items: flex-start;
 	color: #ffffff;
-	/*background-color: #81b3d2;*/
+	background-color: #81b3d2;
 
 
 	/*-------*/
 	outline: 1px solid gray;
-	min-height: 256px;
+	/*min-height: 256px;*/
   	/*-------*/	
 }
 
@@ -149,16 +149,18 @@ a {
 
 	/*-------*/
 	outline: 3px solid red;
-	min-height: 155px;
+	/*min-height: 155px;*/
   	/*-------*/		
 
 }
 
 .picture-alignment {
 	width: 800px;
+	height: 256px;
+
 	/*-------*/
 	outline: 3px solid blue;
-	min-height: 256px;
+	/*min-height: 256px;*/
   	/*-------*/	
 }
 
@@ -177,11 +179,11 @@ a {
 	display: flex;
 	justify-content: space-around;
 	align-items: flex-start;
-	/*background-color: #eeeeee;*/
+	background-color: #eeeeee;
 
 	/*-------*/
 	outline: 3px solid brown;
-	min-height: 256px;
+	/*min-height: 256px;*/
   	/*-------*/
 }
 
@@ -197,7 +199,7 @@ a {
 	
 	/*-------*/
 	outline: 3px solid black;
-	min-height: 330px;
+	/*min-height: 330px;*/
   	/*-------*/	
 }
 
@@ -207,7 +209,7 @@ a {
 
 	/*-------*/
 	outline: 3px solid red;
-	min-height: 195px;
+	/*min-height: 195px;*/
   	/*-------*/		
 }
 
@@ -221,7 +223,7 @@ a {
 
 	/*-------*/
 	outline: 3px solid yellow;
-	min-height: 290px;
+	/*min-height: 290px;*/
   	/*-------*/
 }
 
@@ -238,28 +240,28 @@ a {
 	font-weight: bold;
 	color: #ffffff;	
 
-	/*background-color: #766357;	*/
+	background-color: #766357;	
 }
 
 .search-hotels a:hover {
 	color: #ffffff;	
-	/*background-color: #604e43;		*/
+	background-color: #604e43;		
 }
 
 .search-hotels a:active {
 	color: rgba(255, 255, 255, 0.3);
-	/*background-color: #503e33;	*/
+	background-color: #503e33;	
 }
 /*------------------------------------*/
 .map {
-	/*height: 593px;*/
-	/*background-image: url("../img/map.jpg");*/
+	height: 593px;
+	background-image: url("../img/map.jpg");
 	background-position: center bottom;
   	background-repeat: no-repeat;
 
   	/*-------*/
 	outline: 3px solid green;
-	min-height: 473px;
+	/*min-height: 473px;*/
   	/*-------*/
 }
 /*------------------------------------*/
@@ -267,11 +269,11 @@ a {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	/*background-color: rgba(254, 254, 254, 0.9);	*/
+	background-color: rgba(254, 254, 254, 0.9);	
 
 	/*-------*/
 	outline: 3px solid yellow;
-	min-height:120px;
+	/*min-height:120px;*/
   	/*-------*/
 }
 
@@ -284,7 +286,7 @@ a {
 
 	/*-------*/
 	outline: 3px solid red;
-	min-height: 50px;
+	/*min-height: 50px;*/
   	/*-------*/
 }
 
@@ -296,7 +298,7 @@ a {
 
 	/*-------*/
 	outline: 3px solid red;
-	min-height: 50px;
+	/*min-height: 50px;*/
   	/*-------*/
 }
 
@@ -307,12 +309,12 @@ a {
 	
 	/*-------*/
 	outline: 3px solid red;
-	min-height: 50px;
+	/*min-height: 50px;*/
   	/*-------*/
 }
 
 .social-button {
-	/*background-color: #81b3d2;*/
+	background-color: #81b3d2;
 }
 
 .social-button:hover {
@@ -377,8 +379,8 @@ a {
 /*-----------catalog.html-------------*/
 .filters {
 	color: #ffffff;
-	/*background-color: #81b3d2;*/
-	/*background-image: url("../img/filter-background.jpg");*/
+	background-color: #81b3d2;
+	background-image: url("../img/filter-background.jpg");
   	background-position: top center;
  	background-repeat: no-repeat;
 }
@@ -391,7 +393,7 @@ a {
 
 	/*-------*/
 	outline: 3px solid yellow;
-	min-height: 217px;
+	/*min-height: 217px;*/
   	/*-------*/
 }
 
@@ -402,7 +404,7 @@ a {
 
 	/*-------*/
 	outline: 3px solid red;
-	min-height: 165px;
+	/*min-height: 165px;*/
   	/*-------*/
 }
 
@@ -452,11 +454,11 @@ a {
 
 .filter-button:hover {
 	color: #000000;
-	/*background-color: #ffffff; */
+	background-color: #ffffff; 
 } 
 /*------------------------------------*/
 .search-results {
-	/*background-color: #fefefe;*/
+	background-color: #fefefe;
 }
 
 .sort-options, .sort-order {
@@ -475,7 +477,7 @@ a {
 
 	/*-------*/
 	outline: 3px solid green;
-	min-height: 58px;
+	/*min-height: 58px;*/
   	/*-------*/
 }
 
@@ -489,15 +491,16 @@ a {
 
 	/*-------*/
 	outline: 3px solid red;
-	min-height: 26px;
+	/*min-height: 26px;*/
   	/*-------*/	
 }
 
 .sort-type-wrapper {
 	min-width: 360px;
+
 	/*-------*/
 	outline: 3px solid red;
-	min-height: 18px;
+	/*min-height: 18px;*/
   	/*-------*/	
 }
 
@@ -507,7 +510,7 @@ a {
 
 	/*-------*/
 	outline: 3px solid red;
-	min-height: 20px;
+	/*min-height: 20px;*/
   	/*-------*/	
 }
 
@@ -550,7 +553,7 @@ a {
 
 	/*-------*/
 	outline: 3px solid blue;
-	min-height: 150px;
+	/*min-height: 150px;*/
   	/*-------*/	
 }
 
@@ -560,7 +563,7 @@ a {
 
 	/*-------*/
 	outline: 3px solid red;
-	min-height: 90px;
+	/*min-height: 90px;*/
   	/*-------*/	
 }
 
@@ -569,7 +572,7 @@ a {
 
 	/*-------*/
 	outline: 3px solid red;
-	min-height: 95px;
+	/*min-height: 95px;*/
   	/*-------*/	
 }
 
@@ -579,7 +582,7 @@ a {
 
 	/*-------*/
 	outline: 3px solid red;
-	min-height: 95px;
+	/*min-height: 95px;*/
   	/*-------*/	
 }
 
@@ -601,7 +604,7 @@ a {
 .details {
 	font-weight: bold;
 	color: #ffffff;	
-  	/*background-color: #81b3d2;	*/
+  	background-color: #81b3d2;	
 }
 
 .details:hover {
@@ -617,7 +620,7 @@ a {
 .booking {
 	font-weight: bold;
 	color: #ffffff;	
-  	/*background-color: #766357;		*/
+  	background-color: #766357;		
 }
 
 .booking:hover {
@@ -632,8 +635,7 @@ a {
 
 .hotel-raiting {
 	text-align: center;
-
 	color: #666666;
-	/*background-color: #f2f2f2;*/
+	background-color: #f2f2f2;
 }
 
