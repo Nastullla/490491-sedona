@@ -10,14 +10,23 @@ body {
 	text-transform: uppercase;
 
 	background-color: #f2f2f2;
+}
 
 	/*-------*/
+.index {	
 	background-image: url("../img/sedona-index-1200.jpg");
 	background-position: top center;
 	background-repeat: no-repeat;
 	min-height: 2762px;
-	/*-------*/
+}	
+
+.catalog {
+	background-image: url("../img/sedona-hotels-1200.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	min-height: 933px;	
 }
+	/*-------*/
 
 a {
 	text-decoration: none;
@@ -368,14 +377,47 @@ a {
 /*-----------catalog.html-------------*/
 .filters {
 	color: #ffffff;
-	background-color: #81b3d2;
-	background-image: url("../img/filter-background.jpg");
+	/*background-color: #81b3d2;*/
+	/*background-image: url("../img/filter-background.jpg");*/
   	background-position: top center;
  	background-repeat: no-repeat;
 }
 
+.filter-form {
+	display: flex;
+	align-items: center;
+	padding-left: 72px;
+	padding-right: 72px;
+
+	/*-------*/
+	outline: 3px solid yellow;
+	min-height: 217px;
+  	/*-------*/
+}
+
 .filter-group {
+	margin: 0;
+	padding: 0;
 	border: none;
+
+	/*-------*/
+	outline: 3px solid red;
+	min-height: 165px;
+  	/*-------*/
+}
+
+.filter-group-infrastructure {
+	width: 145px;
+	margin-right: 110px;
+}
+
+.filter-group-type-of-housing {
+	width: 145px;
+}
+
+.filter-group-price {
+	width: 320px;
+	margin-left: auto;
 }
 
 .filter-title {
@@ -385,6 +427,8 @@ a {
 }
 
 .filter-options-list {
+	margin: 0;
+	padding: 0;
 	list-style: none;
 }
 
@@ -408,29 +452,71 @@ a {
 
 .filter-button:hover {
 	color: #000000;
-	background-color: #ffffff; 
+	/*background-color: #ffffff; */
 } 
 /*------------------------------------*/
 .search-results {
-	background-color: #fefefe;
+	/*background-color: #fefefe;*/
+}
+
+.sort-options, .sort-order {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+.sort-header {
+	display: flex;
+	align-items: baseline;
+	padding-top: 28px;
+	padding-left: 72px;
+	padding-right: 72px;
+
+	/*-------*/
+	outline: 3px solid green;
+	min-height: 58px;
+  	/*-------*/
 }
 
 .found {
+	width: 117px;
+	margin-right: 45px;
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: bold;
 	color: #000000;	
+
+	/*-------*/
+	outline: 3px solid red;
+	min-height: 26px;
+  	/*-------*/	
+}
+
+.sort-type-wrapper {
+	min-width: 360px;
+	/*-------*/
+	outline: 3px solid red;
+	min-height: 18px;
+  	/*-------*/	
+}
+
+.sort-order {
+	width: 38px;
+	margin-left: auto;
+
+	/*-------*/
+	outline: 3px solid red;
+	min-height: 20px;
+  	/*-------*/	
 }
 
 .sort {
+	margin: 0;
 	font-size: 12px;
 	line-height: 18px;
 	font-weight: normal;
 	color: #000000;	
-}
-
-.sort-options, .sort-order {
-	list-style: none;
 }
 
 .sort-option a {
@@ -456,6 +542,47 @@ a {
 	border-bottom: none;	
 }
 /*------------------------------------*/
+.hotel {
+	display: flex;
+	align-items: center;
+	padding-left: 72px;
+	padding-right: 72px;
+
+	/*-------*/
+	outline: 3px solid blue;
+	min-height: 150px;
+  	/*-------*/	
+}
+
+.hotel-photo {
+	width: 135px;
+	margin-right: 30px;
+
+	/*-------*/
+	outline: 3px solid red;
+	min-height: 90px;
+  	/*-------*/	
+}
+
+.hotel-info-wrapper {
+	min-width: 260px;
+
+	/*-------*/
+	outline: 3px solid red;
+	min-height: 95px;
+  	/*-------*/	
+}
+
+.hotel-raiting-wrapper {
+	width: 110px;
+	margin-left: auto;
+
+	/*-------*/
+	outline: 3px solid red;
+	min-height: 95px;
+  	/*-------*/	
+}
+
 .hotel-title {
 	font-size: 21px;
 	line-height: 26px;
@@ -474,7 +601,7 @@ a {
 .details {
 	font-weight: bold;
 	color: #ffffff;	
-  	background-color: #81b3d2;	
+  	/*background-color: #81b3d2;	*/
 }
 
 .details:hover {
@@ -490,7 +617,7 @@ a {
 .booking {
 	font-weight: bold;
 	color: #ffffff;	
-  	background-color: #766357;		
+  	/*background-color: #766357;		*/
 }
 
 .booking:hover {
@@ -507,6 +634,6 @@ a {
 	text-align: center;
 
 	color: #666666;
-	background-color: #f2f2f2;
+	/*background-color: #f2f2f2;*/
 }
 

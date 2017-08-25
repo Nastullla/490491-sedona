@@ -15,16 +15,16 @@
 						<img src="img/logo.png" width="138" height="70" alt="Логотип города Седона">
 					</a>
 					<ul class="site-navigation">
-						<li>
+						<li class="site-navigation-item">
 							<a href="info.html">Информация</a>
 						</li>
-						<li>
+						<li class="site-navigation-item">
 							<a href="photo.html">Фото и видео</a>
 						</li>
-						<li>
+						<li class="site-navigation-item">
 							<a href="map.html">Карта штата</a>
 						</li>
-						<li>
+						<li class="site-navigation-item">
 							<a class="active-page">Гостиницы</a>
 						</li>
 					</ul>
@@ -81,82 +81,97 @@
 							</p>
 							<label class="visually-hidden" for="price-range">Диапазон цен</label>
 							<input type="range" id="price-range" name="price-range" min="0">
+							<button type="submit" class="filter-button">Показать</button>
 						</fieldset>
-						<button type="submit" class="filter-button">Показать</button>
 					</form>
 				</section>
 
 				<section class="search-results">
 					<h2 class="visually-hidden">Результаты поиска</h2>
-					<b class="found">Найдено: 3</b>
-					<p class="sort">Сортировка:</p>
-					<ul class="sort-options">
-						<li class="sort-option">
-							<a class="sort-selected" href="#">по цене</a>
-						</li>
-						<li class="sort-option">
-							<a href="#">по типу</a>
-						</li>
-						<li class="sort-option">
-							<a href="#">по рейтингу</a>
-						</li>
-					</ul>
-					<ul class="sort-order">
-						<li class="order-option">
-							<a href="#">по возрастанию</a>
-						</li>
-						<li class="order-option">
-							<a href="#">по убыванию</a>
-						</li>
-					</ul>
-
+					<div class="sort-header">
+						<b class="found">Найдено: 3</b>
+						<div class="sort-type-wrapper">
+							<p class="sort">Сортировка:</p>
+							<ul class="sort-options">
+								<li class="sort-option">
+									<a class="sort-selected" href="#">по цене</a>
+								</li>
+								<li class="sort-option">
+									<a href="#">по типу</a>
+								</li>
+								<li class="sort-option">
+									<a href="#">по рейтингу</a>
+								</li>
+							</ul>
+						</div>
+						<ul class="sort-order">
+							<li class="order-option">
+								<a href="#">по возрастанию</a>
+							</li>
+							<li class="order-option">
+								<a href="#">по убыванию</a>
+							</li>
+						</ul>
+					</div>
 					<article class="hotel">
-						<img src="img/amara-resort-&-spa.jpg" width="135" height="90" alt="Гостиница Amara resort & spa">
-						<a class="hotel-name" href="#">
-							<h1 class="hotel-title">Amara resort & spa</h1>
-						</a>
-						<span>Гостиница</span>
-						<span>От 4000 Р</span>
-						<a class="details" href="#">Подробнее</a>
-						<a class="booking" href="#">Забронировать</a>
-						<p class="hotel-stars">
-							<span></span> <!-- фон - звезда -->	
-							<span></span>
-							<span></span>
-							<span></span>
-						</p>
-						<p class="hotel-raiting">Рейтинг: 8,5</p>
+						<img class="hotel-photo" src="img/amara-resort-&-spa.jpg" width="135" height="90" alt="Гостиница Amara resort & spa">
+						<div class="hotel-info-wrapper">
+							<a class="hotel-name" href="#">
+								<h1 class="hotel-title">Amara resort & spa</h1>
+							</a>
+							<span>Гостиница</span>
+							<span>От 4000 Р</span>
+							<a class="details" href="#">Подробнее</a>
+							<a class="booking" href="#">Забронировать</a>
+						</div>
+						<div class="hotel-raiting-wrapper">
+							<p class="hotel-stars">
+								<span></span> <!-- фон - звезда -->	
+								<span></span>
+								<span></span>
+								<span></span>
+							</p>
+							<p class="hotel-raiting">Рейтинг: 8,5</p>
+						</div>	
 					</article>
 					<article class="hotel">
-						<img src="img/desert-quail-inn.jpg" width="135" height="90" alt="Мотель Desert quail inn">
-						<a class="hotel-name" href="#">
-							<h1 class="hotel-title">Desert quail inn</h1>
-						</a>
-						<span>Мотель</span>
-						<span>От 3000 Р</span>
-						<a class="details" href="#">Подробнее</a>
-						<a class="booking" href="#">Забронировать</a>
-						<p class="hotel-stars">
-							<span></span> <!-- фон - звезда -->	
-							<span></span>
-							<span></span>
-						</p>
-						<p class="hotel-raiting">Рейтинг: 8,9</p>
+						<img class="hotel-photo" src="img/desert-quail-inn.jpg" width="135" height="90" alt="Мотель Desert quail inn">
+						<div class="hotel-info-wrapper">
+							<a class="hotel-name" href="#">
+								<h1 class="hotel-title">Desert quail inn</h1>
+							</a>
+							<span>Мотель</span>
+							<span>От 3000 Р</span>
+							<a class="details" href="#">Подробнее</a>
+							<a class="booking" href="#">Забронировать</a>
+						</div>
+						<div class="hotel-raiting-wrapper">
+							<p class="hotel-stars">
+								<span></span> <!-- фон - звезда -->	
+								<span></span>
+								<span></span>
+							</p>
+							<p class="hotel-raiting">Рейтинг: 8,9</p>
+						</div>		
 					</article>
 					<article class="hotel">
-						<img src="img/villas-at-poco-diablo.jpg" width="135" height="90" alt="Апартаменты Villas at poco diablo">
-						<a class="hotel-name" href="#">
-							<h1 class="hotel-title">Villas at poco diablo</h1>
-						</a>
-						<span>Апартаменты</span>
-						<span>От 2000 Р</span>
-						<a class="details" href="#">Подробнее</a>
-						<a class="booking" href="#">Забронировать</a>
-						<p class="hotel-stars">
-							<span></span> <!-- фон - звезда -->	
-							<span></span>
-						</p>
-						<p class="hotel-raiting">Рейтинг: 9,2</p>
+						<img class="hotel-photo" src="img/villas-at-poco-diablo.jpg" width="135" height="90" alt="Апартаменты Villas at poco diablo">
+						<div class="hotel-info-wrapper">
+							<a class="hotel-name" href="#">
+								<h1 class="hotel-title">Villas at poco diablo</h1>
+							</a>
+							<span>Апартаменты</span>
+							<span>От 2000 Р</span>
+							<a class="details" href="#">Подробнее</a>
+							<a class="booking" href="#">Забронировать</a>
+						</div>	
+						<div class="hotel-raiting-wrapper">
+							<p class="hotel-stars">
+								<span></span> <!-- фон - звезда -->	
+								<span></span>
+							</p>
+							<p class="hotel-raiting">Рейтинг: 9,2</p>
+						</div>	
 					</article>	
 				</section>
 
