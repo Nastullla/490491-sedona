@@ -102,7 +102,7 @@ a {
 /*------------------------------------*/
 .advantages {
 	padding-top: 59px;
-	padding-bottom: 51px;
+	padding-bottom: 52px;
 	text-align: center;
 	line-height: 26px;
 }
@@ -456,8 +456,54 @@ a {
 	margin-bottom: 0;
 } 
 
+.filter-input {
+	display: none;
+}
+
+.filter-option label {
+	position: relative;
+	cursor: pointer;	
+}
+
+.infrastructure-wrapper label {
+	margin-left: 39px;
+}
+
+.type-of-housing-wrapper label {
+	margin-left: 42px;
+}
+
+.filter-option label::before {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 27px;
+	height: 23px;
+	background: url("../img/checkbox-off.svg") no-repeat; 
+}
+
+.infrastructure-wrapper label::before {
+	left: -39px;
+}
+
+.type-of-housing-wrapper label::before {
+	left: -41px;
+}
+
+.filter-input:checked + label::before {
+	background: url("../img/checkbox-on.svg") no-repeat; 
+}
+
 .filter-input:disabled + label {
 	color: #6a6a6a;
+}
+
+.filter-input:disabled + label::before {
+	background: url("../img/checkbox-off-disabled.svg") no-repeat; 
+}
+
+.filter-input:disabled:checked + label::before {
+	background: url("../img/checkbox-on-disabled.svg") no-repeat; 
 }
 
 .filter-group-price .filter-title {
@@ -698,14 +744,13 @@ a {
 	font-weight: bold;
 }
 
-.hotel-wrapper {
-	margin: 0;
-	padding: 0;	
-	margin-bottom: 15px;
+.hotel-type-wrapper {
+	display: inline-block;
 }
 
-.prise-wrapper {
-	margin-left: 35px;
+.hotel-type-wrapper span {
+	display: block;
+	margin-bottom: 15px;
 }
 
 .hotel-name {

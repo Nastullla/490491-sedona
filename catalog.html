@@ -39,7 +39,7 @@
 					<form class="filter-form" action="https://echo.htmlacademy.ru" method="get">
 						<fieldset class="filter-group filter-group-infrastructure">
 							<legend class="filter-title">Инфраструктура:</legend>
-							<ul class="filter-options-list">
+							<ul class="filter-options-list infrastructure-wrapper">
 								<li class="filter-option">
 									<input class="filter-input" type="checkbox" id="pool" name="pool" checked>
 									<label for="pool">Бассейн</label> 
@@ -56,7 +56,7 @@
 						</fieldset>
 						<fieldset class="filter-group filter-group-type-of-housing">
 							<legend class="filter-title">Тип жилья:</legend>
-							<ul class="filter-options-list">
+							<ul class="filter-options-list type-of-housing-wrapper">
 								<li class="filter-option">
 									<input class="filter-input" type="checkbox" id="hotel" name="hotel" checked>
 									<label for="hotel">Гостиница</label>
@@ -128,15 +128,14 @@
 							<a class="hotel-name" href="#">
 								<h1 class="hotel-title">Amara resort &amp; spa</h1>
 							</a>
-							<div> 
+							<div class="hotel-type-wrapper"> 
 								<span>Гостиница</span>
 								<a class="details" href="#">Подробнее</a>
 							</div>
-							<div>
-								<span class="prise-wrapper">От 4000 Р.</span>
+							<div class="hotel-type-wrapper">
+								<span>От 4000 Р.</span>
 								<a class="booking" href="#">Забронировать</a>
 							</div>
-								<!-- <p class="hotel-wrapper"> -->
 						</div>
 						<div class="hotel-raiting-wrapper">
 							<p class="hotel-stars">
@@ -154,12 +153,14 @@
 							<a class="hotel-name" href="#">
 								<h1 class="hotel-title">Desert quail inn</h1>
 							</a>
-							<p class="hotel-wrapper">
+							<div class="hotel-type-wrapper"> 
 								<span>Мотель</span>
-								<span class="prise-wrapper">От 3000 Р.</span>
-							</p>	
-							<a class="details" href="#">Подробнее</a>
-							<a class="booking" href="#">Забронировать</a>
+								<a class="details" href="#">Подробнее</a>
+							</div>
+							<div class="hotel-type-wrapper">
+								<span>От 3000 Р.</span>
+								<a class="booking" href="#">Забронировать</a>
+							</div>
 						</div>
 						<div class="hotel-raiting-wrapper">
 							<p class="hotel-stars">
@@ -176,12 +177,14 @@
 							<a class="hotel-name" href="#">
 								<h1 class="hotel-title">Villas at poco diablo</h1>
 							</a>
-							<p class="hotel-wrapper">
+							<div class="hotel-type-wrapper"> 
 								<span>Апартаменты</span>
-								<span class="prise-wrapper">От 2000 Р.</span>
-							</p>
-							<a class="details" href="#">Подробнее</a>
-							<a class="booking" href="#">Забронировать</a>
+								<a class="details" href="#">Подробнее</a>
+							</div>
+							<div class="hotel-type-wrapper">
+								<span>От 2000 Р.</span>
+								<a class="booking" href="#">Забронировать</a>
+							</div>
 						</div>	
 						<div class="hotel-raiting-wrapper">
 							<p class="hotel-stars">
