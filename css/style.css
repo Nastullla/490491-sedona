@@ -173,6 +173,7 @@ a {
 
 .promo-list {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: flex-start;
 	margin: 0;
@@ -202,7 +203,10 @@ a {
 	background: url("../img/icon-1.svg") no-repeat center bottom;
 }
 
-.food-icon::before {
+.promo-item .food-icon::before {
+	height: 75px;
+	margin-left: 33px;
+	margin-bottom: 28px;
     background: url("../img/icon-3.svg") no-repeat center bottom;
 }
 
@@ -216,6 +220,7 @@ a {
 
 .other-features {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: flex-start;
 	background-color: #eeeeee;
@@ -253,7 +258,8 @@ a {
 	line-height: 24px;
 }
 
-.search-hotels a {
+.button-visibility-search {
+	position: relative;
 	display: inline-block;
 	width: 568px;
 	margin-top: 47px;
@@ -265,12 +271,12 @@ a {
 	background-color: #766357;	
 }
 
-.search-hotels a:hover {
+.button-visibility-search:hover {
 	color: #ffffff;	
 	background-color: #604e43;		
 }
 
-.search-hotels a:active {
+.button-visibility-search:active {
 	color: rgba(255, 255, 255, 0.3);
 	background-color: #503e33;	
 }
@@ -365,13 +371,22 @@ a {
 }
 /*------------------------------------*/
 .modal-search {
-	display: none;
+	/*display: none;*/
+	position: absolute;
+	top: 2166px;
+	left: 50%;
+	width: 458px;
+	margin-left: -284px;
+	padding: 55px; 
 	line-height: 26px;
 	font-weight: bold;
 	color: #000000;	
+	background-color: #ffffff;
 }
 
 .search-hotels-form input[type="text"] {
+	width: 346px;
+	height: 32px;
 	font: inherit;
 	outline: none;
 	background-color: #f2f2f2;
@@ -386,6 +401,26 @@ a {
 .search-hotels-form input[type="text"]:focus {
 	background-color: #ffffff;
 	border-color: #e5e5e5;
+}
+
+.modal-wrapper {
+	margin: 0;
+}
+
+.arrival-date-wrapper {
+	margin-bottom: 29px;
+}
+
+.arrival-date-wrapper label {
+	margin-right: 7px;
+}
+
+.departure-date-wrapper {
+	margin-bottom: 30px;
+}
+
+.departure-date-wrapper label {
+	margin-right: 7px;
 }
 
 .button-search {
@@ -681,7 +716,7 @@ a {
 .sort-options {
 	display: inline-flex;
 	flex-wrap: wrap;
-	width: 500px;
+	width: 600px;
 }
 
 .sort-option {
@@ -819,7 +854,7 @@ a {
 }
 
 .hotel-raiting-wrapper {
- 	width: 110px;
+ 	width: 115px;
  	/*padding-bottom: 4px;*/
 	margin-left: auto;
 }
