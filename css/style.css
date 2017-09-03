@@ -708,6 +708,8 @@ a {
 
 .filter-input:disabled + label {
 	color: #6a6a6a;
+
+	cursor: default;
 }
 
 .filter-input:disabled + label::before {
@@ -771,6 +773,7 @@ a {
 
 .price-controls input {
 	width: 50px;
+	height: 31px;
 	margin: 0;
 
 	font: inherit;
@@ -852,6 +855,8 @@ a {
 	background: none;
 	border: 2px solid #ffffff;
 	border-radius: 2px;
+
+	cursor: pointer;
 }
 
 .filter-button:hover {
@@ -945,6 +950,8 @@ a {
 	color: #81b3d2;
 
 	border-bottom: none;	
+
+	cursor: default; 
 }
 
 .sort-order {
