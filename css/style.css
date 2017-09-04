@@ -570,7 +570,9 @@ a {
 	background-color: #5496bd;
 }
 
-.social-button:active svg {
+.social-button:active svg,
+.social-button-image:active path,
+.social-button-image path:active {
 	opacity: 0.3;
 }
 
@@ -595,7 +597,9 @@ a {
 	fill: #81b3d2;
 }
 
-.copyright-link:active path {
+.copyright-link:active path,
+.copyright-link-image:active path,
+.copyright-link path:active {
 	fill: #bdbbbc;
 }
 /*-----------catalog.html-------------*/
@@ -660,10 +664,6 @@ a {
 .filter-option:last-child {
 	margin-bottom: 0;
 } 
-
-.filter-input {
-	display: none;
-}
 
 .filter-option label {
 	position: relative;
@@ -972,11 +972,16 @@ a {
 	transform: translate(0, 1px);
 }
 
-.order-option a:hover path {
+.order-option-selected path {
+	fill: #81b3d2;
+}
+
+.order-option-link:hover path {
 	fill: #231f20;
 }
 
-.order-option a:active path {
+.order-option-image:active path,
+.order-option-image path:active {
 	fill: #81b3d2;
 }
 /*------------------------------------*/
@@ -1028,7 +1033,7 @@ a {
 	color: #81b3d2;
 }
 
-.hotel-name:active {
+.hotel-name h1:active {
 	color: rgba(0, 0, 0, 0.3);
 }
 
