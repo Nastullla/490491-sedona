@@ -111,6 +111,7 @@ a {
 .intro {
 	height: 508px;
 
+	background-color: #f2f2f2;
 	background-image: url("../img/shape.png"), url("../img/welcome.png"), url("../img/mountains.jpg");
 	background-position: center bottom, center 76px, center -56px;
   	background-repeat: no-repeat;
@@ -654,8 +655,7 @@ a {
 .filters {
 	color: #ffffff;
 
-	background-color: #81b3d2;
-	background: url("../img/filter-background.jpg") no-repeat center -56px;
+	background: #81b3d2 url("../img/filter-background.jpg") no-repeat center -56px;
 }
 
 .filter-form {
