@@ -282,6 +282,8 @@ a {
 .button-visibility-search {
 	display: inline-block;
 
+	vertical-align: top;
+
 	width: 568px;
 	margin-top: 47px;
 	padding: 30px 0;
@@ -571,6 +573,8 @@ a {
 
 .footer-hashtag {
 	display: inline-block;
+
+	vertical-align: top;
 
 	padding-bottom: 2px;
 
@@ -937,6 +941,8 @@ a {
 .found {
 	display: inline-block;
 
+	vertical-align: top;
+
 	width: 117px;
 	margin: 30px 48px 30px 0px;
 
@@ -1065,6 +1071,8 @@ a {
 
 .hotel-type-wrapper {
 	display: inline-block;
+
+	vertical-align: top;
 }
 
 .hotel-type-wrapper span {
@@ -1087,6 +1095,8 @@ a {
 
 .details {
 	display: inline-block;
+
+	vertical-align: top;
 
 	min-width: 110px;
 	margin-right: 2px;
@@ -1113,6 +1123,8 @@ a {
 
 .booking {
 	display: inline-block;
+
+	vertical-align: top;
 
 	min-width: 142px;
 	padding: 3px 0;
@@ -1150,6 +1162,8 @@ a {
 
 .star {
 	display: inline-block;
+
+	vertical-align: top;
 
 	width: 18px;
 	height: 17px;
